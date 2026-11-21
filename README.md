@@ -1,27 +1,30 @@
-# webtech-ss26
-Webtech-Projekt SS26
+# EasyList 🛒 – Frontend
 
-# EasyList 🛒
+EasyList ist eine Full-Stack-Webanwendung zur Verwaltung von Einkaufslisten. Nutzer können sich registrieren, anmelden und Produkte mit Name, Menge und Kategorie anlegen, bearbeiten und löschen.
 
-## Projektbeschreibung
-EasyList ist eine Web-Anwendung zur Verwaltung von Einkaufslisten.
-Nutzer können Produkte mit Name, Menge und Kategorie verwalten.
+Dieses Repository enthält das **Frontend** der Anwendung, entwickelt mit Vue.js.
+Das Backend (Spring Boot, PostgreSQL) befindet sich hier: https://github.com/blhamza06/EasyList-backend
+
+Das Projekt ist im Modul **Webtechnologien** (Sommersemester 2026) an der HTW Berlin im Studiengang Wirtschaftsinformatik entstanden.
 
 ## Team
+
 - Hamza Blaybel
 - Mehmet Albayrak
 
-## Tech-Stack
-- Backend: Java, Spring Boot
-- Frontend: Vue.js (folgt in Milestone 2)
-- Datenbank: PostgreSQL (folgt in Milestone 2)
-- Deployment: Render.com (folgt in Milestone 3)
+## Technologie-Stack
 
-## Datenmodell
-- `ShoppingItem` - Produkt mit Name, Menge und Kategorie
+| Bereich         | Technologie                    |
+|-----------------|--------------------------------|
+| Frontend        | Vue.js                         |
+| Backend         | Java, Spring Boot (REST-API)   |
+| Datenbank       | PostgreSQL                     |
+| Sicherheit      | Spring Security, JWT           |
+| Bereitstellung  | Render.com                     |
+| Versionierung   | Git, GitHub                    |
 
-## Starten der Anwendung
-```bash
-./gradlew bootRun
-```
-Die Anwendung läuft dann unter: http://localhost:8080/items
+## Funktionen
+
+- Registrierung und Anmeldung von Nutzern
+- Produkte mit Name, Menge und Kategorie anlegen, bearbeiten und löschen
+- Kommunikation mit dem Backend über eine REST-API
